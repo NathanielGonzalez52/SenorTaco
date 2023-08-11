@@ -1,15 +1,21 @@
-.square {
-    text-align: center;
-    width: 50%;
-    /* background-color: red; */
-  }
-  
-  .address {
-  }
-  
-  .hours {
-    text-align: center;
-    width: 50%;
-    /* background-color: red; */
-  }
-  
+.store-info {
+  padding-top: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  background-color: blue;
+  width: 100%;
+}
+
+.hours {
+  background-color: yellow;
+  width: 100%
+}
+
+.socials {
+  background-color: red;
+  width: 100%;
+}
