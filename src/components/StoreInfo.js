@@ -4,7 +4,7 @@ function StoreInfo() {
 
     return (
 
-    <div class="store-info">
+    <div className="store-info">
     
         <div className="location info">
         <h3>Address</h3>
@@ -22,9 +22,12 @@ function StoreInfo() {
 
         <div className="socials info">
         <h3>Socials</h3>
-            <p>Facebook</p>
-            <p>Instagram</p>
-            <p>TikTok</p>
+        <div className="social-pic">
+            <p>FB ICON</p>
+            <p>INSTA ICON</p>
+            <p>TWITTER ICON</p>
+        </div>
+        
         </div>
     
     </div>

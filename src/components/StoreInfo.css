@@ -15,7 +15,8 @@
   width: 100%
 }
 
-.socials {
+.social-pic {
   background-color: red;
   width: 100%;
+  display: flex;
 }
