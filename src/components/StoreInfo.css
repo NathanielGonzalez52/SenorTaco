@@ -12,11 +12,15 @@
 
 .hours {
   background-color: yellow;
-  width: 100%
+  width: 100%;
 }
 
 .social-pic {
   background-color: red;
   width: 100%;
   display: flex;
+}
+
+.fa-brands {
+  padding: 2.5rem 0.9rem;
 }

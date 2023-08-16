@@ -10,18 +10,21 @@
 .about-text {
     padding-top: 0.8rem;
     padding-left: 5%;
+    padding-bottom: 5%;
     width: 220%;
 }
 
 .pics {
-    padding-top: 0.8rem;
+    padding-top: 2.2rem;
     padding-left: 1.3rem;
+    width: 155%;
+    /* overflow: hidden; */
 }
 
 .food {
     padding-top: 2px;
-    width: 68%;
-    display: block;
+    width: 100%;
+    /* display: block; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }

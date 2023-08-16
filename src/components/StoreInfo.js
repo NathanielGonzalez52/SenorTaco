@@ -23,9 +23,9 @@ function StoreInfo() {
         <div className="socials info">
         <h3>Socials</h3>
         <div className="social-pic">
-            <p>FB ICON</p>
-            <p>INSTA ICON</p>
-            <p>TWITTER ICON</p>
+        <i class="fa-brands fa-facebook fa-xl"></i>
+        <i class="fa-brands fa-instagram fa-xl"></i>
+        <i class="fa-brands fa-x-twitter fa-xl"></i>
         </div>
         
         </div>
