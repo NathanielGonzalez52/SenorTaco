@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Navbar.css';
+import {Link} from "react-router-dom";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -28,48 +29,48 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-        <a><img className="logo" src="../../images/senor_taco.png"
-        alt="logo"></img></a>
-          {/* <a to='/' className='navbar-logo' onClick={closeMobileMenu}>
+        <Link><img className="logo" src="../../images/senor_taco.png"
+        alt="logo"></img></Link>
+          {/* <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             TRVL
             <i class='fab fa-typo3' />
-          </a> */}
+          </Link> */}
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <a to='/home' className='nav-links' onClick={closeMobileMenu}>
+              <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
                 Home
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a
-                to='/services'
+              <Link
+                to='/menu'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 Menu
-              </a>
+              </Link>
             </li>
             <li className='nav-item'>
-              <a
+              <Link
                 to='/products'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
                 About Us
-              </a>
+              </Link>
             </li>
 
             <li>
-              <a
+              <Link
                 to='/sign-up'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
                 Sign Up
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -95,8 +96,8 @@ export default Navbar;
 
 // <nav className="navbar navbar-expand-xl sticky-top navbar-custom">
 // <div className="container-fluid">
-//   <a className="header navbar-brand" href="index.html"><img className="logo" src="../../images/senor_taco.png"
-//    alt="logo"></img></a>
+//   <Link className="header navbar-brand" href="index.html"><img className="logo" src="../../images/senor_taco.png"
+//    alt="logo"></img></Link>
 //   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 //     <span className="navbar-toggler-icon"></span>
 //   </button>
@@ -105,13 +106,13 @@ export default Navbar;
 //   <div className="collapse navbar-collapse" id="navbarSupportedContent">
 //     <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
 //       <li className="nav-item special">
-//         <a className="nav-a" aria-current="page" href="#top">Home</a>
+//         <Link className="nav-a" aria-current="page" href="#top">Home</Link>
 //       </li>
 //       <li className="nav-item">
-//         <a className="nav-a" href="#event-sec">Events</a>
+//         <Link className="nav-a" href="#event-sec">Events</Link>
 //       </li>
 //       <li className="nav-item">
-//         <a className="nav-a" href="#contact-us">About Us</a>
+//         <Link className="nav-a" href="#contact-us">About Us</Link>
 //       </li>
 //     </ul>
 

@@ -6,19 +6,25 @@
 }
 
 .location {
-  background-color: blue;
+  /* background-color: blue; */
   width: 100%;
 }
 
 .hours {
-  background-color: yellow;
+  /* background-color: yellow; */
+  width: 100%;
+}
+
+.socials {
   width: 100%;
 }
 
 .social-pic {
-  background-color: red;
+  /* background-color: red; */
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .fa-brands {
