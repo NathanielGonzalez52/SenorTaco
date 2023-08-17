@@ -5,8 +5,8 @@ import HeroSection from './components/HeroSection';
 import StoreInfo from './components/StoreInfo';
 import About from "./components/About";
 import { BrowserRouter as Router, Switch, Route, Routes} from 'react-router-dom';
-import Menu from "./pages/Menu";
-
+import MenuHome from "./pages/MenuHome";
+import Home from './pages/Home';
 
 
 function App() {
@@ -15,12 +15,14 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path='/menu' element={<Menu/>}/>
+        <Route path='/home' element={<Home/>}/>
+        <Route path='/menuhome' element={<MenuHome/>}/>
 </Routes>
       </Router>
-      <HeroSection />
+
+      {/* <HeroSection />
       <StoreInfo />
-      <About />
+      <About /> */}
       
     </div>
   );

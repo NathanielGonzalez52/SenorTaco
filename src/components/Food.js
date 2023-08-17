@@ -1,7 +1,7 @@
 import React from 'react';
-import "./Menu.css";
+import "./Food.css";
 
-export default function Menu() {
+export default function Food() {
   return (
     <div>
     <img className="menu" src="../../images/1.png"></img>

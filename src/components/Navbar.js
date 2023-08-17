@@ -29,7 +29,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-        <Link><img className="logo" src="../../images/senor_taco.png"
+        <Link to='home'><img className="logo" src="../../images/senor_taco.png"
         alt="logo"></img></Link>
           {/* <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             TRVL
@@ -46,7 +46,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/menu'
+                to='/menuhome'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
