@@ -1,10 +1,25 @@
 import React from 'react'
 import "./About.css";
+import { useEffect } from "react";
+var scrollToElement = require("scroll-to-element");
+
 
 function About() {
+
+  useEffect(() => {
+    scrollToElement();
+  }, []);
+
+  const scrolltoElement = () => {
+    const element = document.getElementById("hook");
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth", block: "start"});
+    }
+  };
+
   return (
     <>
-    <h1 className="welcome">Bienvenidos to Senor Taco!</h1>
+    <h1 id="hook" className="welcome">Bienvenidos to Senor Taco!</h1>
     <div className="about">
 
       <div className = "about-text">
@@ -19,11 +34,11 @@ function About() {
       <div className="pics">
         <img className="food" src="../../images/taco.jpg"></img>
         <img className="food" src="../../images/fries.jpg"></img>
-        {/* <img className="food" src="../../images/quesa.jpg"></img> */}
+        <img className="food" src="../../images/quesa.jpg"></img>
       </div>
     </div>
     </>
   )
 }
 
-export default About
+export default About;

@@ -57,7 +57,7 @@
 }
 
 .nav-links {
-  color: #000000;
+  color: #e24949;
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -101,9 +101,9 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #a9f5a9;
     left: 0;
-    opacity: 1;
+    opacity: 0.98;
     transition: all 0.5s ease;
     z-index: 1;
   }

@@ -1,8 +1,17 @@
 import React, { useState } from 'react';
 import './Navbar.css';
 import {Link} from "react-router-dom";
+import {Link as ScrollLink} from 'react-scroll'
+// var Scroll = require("react-scroll");
+// var Element = Scroll.Element
+// var scroller = Scroll.scroller;
+// // import Scroll from 'react-scroll';
+// // const ScrollLink = Scroll.ScrollLink;
 
 function Navbar() {
+
+  const targetElementId = "hook";
+
   const [click, setClick] = useState(false);
   // const [button, setButton] = useState(true);
 
@@ -27,7 +36,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
+      <nav className='navbar sticky-top'>
         <div className='navbar-container'>
         <Link to='home'><img className="logo" src="../../images/senor_taco.png"
         alt="logo"></img></Link>
@@ -54,23 +63,19 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link
-                to='/products'
+            
+
+              <ScrollLink
+                activeClass="active"
+                to="hook"
+                spy={true}
+                smooth={true}
                 className='nav-links'
                 onClick={closeMobileMenu}
+                offset="50px"
               >
                 About Us
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                to='/sign-up'
-                className='nav-links-mobile'
-                onClick={closeMobileMenu}
-              >
-                Sign Up
-              </Link>
+              </ScrollLink>
             </li>
           </ul>
         </div>
