@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFFFF;
+  background-image: url("../public/images/concrete-wall.png");
+  /* background: url("../../public/images/brick-wall-dark.jpg") */
+
+  /* background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png"); */
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 code {

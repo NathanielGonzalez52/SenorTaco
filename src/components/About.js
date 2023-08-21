@@ -34,7 +34,7 @@ function About() {
       <div className="pics">
         <img className="food" src="../../images/taco.jpg"></img>
         <img className="food" src="../../images/fries.jpg"></img>
-        <img className="food" src="../../images/quesa.jpg"></img>
+        {/* <img className="food" src="../../images/quesa.jpg"></img> */}
       </div>
     </div>
     </>

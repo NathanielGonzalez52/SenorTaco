@@ -10,7 +10,6 @@ import {Link as ScrollLink} from 'react-scroll'
 
 function Navbar() {
 
-  const targetElementId = "hook";
 
   const [click, setClick] = useState(false);
   // const [button, setButton] = useState(true);
@@ -70,9 +69,10 @@ function Navbar() {
                 to="hook"
                 spy={true}
                 smooth={true}
+                duration={30}
                 className='nav-links'
                 onClick={closeMobileMenu}
-                offset="50px"
+                offset={-120}
               >
                 About Us
               </ScrollLink>
