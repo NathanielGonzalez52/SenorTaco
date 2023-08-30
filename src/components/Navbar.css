@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "mexican";
+  src: url("../../public/fonts/La Tequila Out.ttf");
+}
+
+
 
 .logo {
     width: 30%;
@@ -57,6 +63,7 @@
 }
 
 .nav-item {
+  font-family: "mexican";
   height: 80px;
 }
 

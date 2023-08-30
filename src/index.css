@@ -1,8 +1,16 @@
+
+@font-face {
+  font-family: "mexican";
+  src: url("../public/fonts/La Tequila Out.ttf");
+}
+
 body {
   margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+    
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #FFFFFF;
@@ -14,6 +22,6 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'mexican', 'Courier New',
     monospace;
 }

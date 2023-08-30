@@ -1,13 +1,36 @@
+@font-face {
+  font-family: "mexican";
+  src: url("../../public/fonts/La Tequila Out.ttf");
+}
+
+
+.header {
+  padding-top: 1.3rem;
+  padding-bottom: 0.6rem;
+  font-family: "mexican";
+  color: red;
+  font-size: 0.8rem;
+}
+
+
+.theme {
+  color: green;
+  font-family: "mexican";
+  font-size: 0.5rem;
+}
+
 .store-info {
-  padding-top: 2%;
+  /* padding-top: 2%; */
   width: 100%;
   display: flex;
   justify-content: center;
+  padding-left: 1rem;
 }
 
 .location {
   /* background-color: blue; */
-  width: 100%;
+  width: 110%;
+  padding-right: 0.7rem
 }
 
 .hours {
@@ -28,5 +51,6 @@
 }
 
 .fa-brands {
-  padding: 2.5rem 0.9rem;
+  padding: 2.0rem 0.4rem;
+  color: green
 }

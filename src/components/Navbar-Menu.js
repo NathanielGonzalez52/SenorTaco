@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Navbar.css';
+import './Navbar-Menu.css';
 import {Link} from "react-router-dom";
 import {Link as ScrollLink} from 'react-scroll'
 // var Scroll = require("react-scroll");
@@ -8,14 +8,17 @@ import {Link as ScrollLink} from 'react-scroll'
 // // import Scroll from 'react-scroll';
 // // const ScrollLink = Scroll.ScrollLink;
 
-function Navbar() {
+function NavbarMenu() {
 
 
   const [click, setClick] = useState(false);
   // const [button, setButton] = useState(true);
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+  function closeMobileMenu() {
+    setClick(false);
+    return(window.location.reload(true));
+};
 
   // const showButton = () => {
   //   if (window.innerWidth <= 960) {
@@ -38,7 +41,7 @@ function Navbar() {
       <nav className='navbar sticky-top'>
         <div className='navbar-container'>
         <Link to='/'><img className="logo" src="../../images/senor_taco.png"
-        alt="logo" onClick={closeMobileMenu}></img></Link>
+        alt="logo"></img></Link>
           {/* <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             TRVL
             <i class='fab fa-typo3' />
@@ -61,7 +64,7 @@ function Navbar() {
                 Menu
               </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
             
 
               <ScrollLink
@@ -76,7 +79,7 @@ function Navbar() {
               >
                 About Us
               </ScrollLink>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>
@@ -84,7 +87,7 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default NavbarMenu;
 
 
 
