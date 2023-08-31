@@ -23,9 +23,8 @@ function StoreInfo() {
         <div className="socials info">
         <h5 className = "header">Socials</h5>
         <div className="social-pic">
-        <i class="fa-brands fa-facebook fa-xl"></i>
-        <i class="fa-brands fa-instagram fa-xl"></i>
-        <i class="fa-brands fa-x-twitter fa-xl"></i>
+        <a href="https://www.facebook.com/pages/category/Fast-Food-Restaurant/Senor-Taco-165819833562758/"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+        <a href="https://www.yelp.com/biz/se%C3%B1or-taco-cypress-2"><i class="fa-brands fa-yelp fa-2xl"></i></a>
         </div>
         
         </div>

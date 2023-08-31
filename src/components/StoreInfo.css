@@ -51,6 +51,20 @@
 }
 
 .fa-brands {
-  padding: 2.0rem 0.4rem;
+  padding: 2.0rem 1rem;
   color: green
+}
+
+@media screen and (min-width: 1300px) {
+
+  .theme {
+    font-size: 0.75rem;
+  }
+
+  .header {
+    font-size: 1.1rem;
+  }
+
+
+
 }
