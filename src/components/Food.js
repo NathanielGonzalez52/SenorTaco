@@ -3,7 +3,7 @@ import "./Food.css";
 
 export default function Food() {
   return (
-    <div>
+    <div className = "menu-container">
     <img className="menu" src="../../images/1.png"></img>
     <img className="menu" src="../../images/2.png"></img>
     <img className="menu" src="../../images/3.png"></img>
@@ -20,7 +20,6 @@ export default function Food() {
     <img className="menu" src="../../images/14.png"></img>
     <img className="menu" src="../../images/15.png"></img>
     <img className="menu" src="../../images/16.png"></img>
-      
     </div>
   )
 }

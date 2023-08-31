@@ -3,14 +3,17 @@
     src: url(../../public/fonts/La\ Tequila.ttf);
 }
 .welcome {
-    padding-top: 1rem;
+    padding-top: 2.5rem;
     font-family: "mexican";
     color: red;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 .about {
     display: flex;
+    /* background-color: red; */
+    padding-bottom: 0px;
+    height: 28rem;
 }
 
 
@@ -19,6 +22,7 @@
     padding-left: 5%;
     padding-bottom: 5%;
     width: 220%;
+    /* background-color: red; */
     /* font-family: "mexican";
     line-height: 205%; */
 }
@@ -50,14 +54,13 @@
 
 @media screen and (min-width: 1300px) {
 
-  
-
     .three {
       visibility: visible;
     }
 
     .about {
         display: block;
+        height: 100%;
     }
 
     .about-text {
@@ -72,10 +75,11 @@
         padding-right: 4%;
     }
 
-
     .pics {
         /* background-color: blue; */
         display: flex;
+        padding-top: 1rem;
+        padding-bottom: 10rem;
         /* padding: 0.5rem; */
         justify-content: center;
         width: 100%;
