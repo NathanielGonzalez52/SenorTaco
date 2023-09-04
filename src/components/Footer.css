@@ -54,6 +54,11 @@
   }
   
 .socials-f .fa-brands {
-   padding: 2.0rem 1rem;
+   padding: 0.6rem 1rem;
    color: #FFFFFF;
+  }
+
+.copyright {
+  font-size: 0.45rem;
+  padding-bottom: 2.5rem;
   }

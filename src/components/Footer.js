@@ -26,6 +26,7 @@ export default function footer() {
     <a className = "icon-f" href="https://www.facebook.com/pages/category/Fast-Food-Restaurant/Senor-Taco-165819833562758/"><i class="fa-brands fa-facebook fa-2xl"></i></a>
     <a className="icon-f" href="https://www.yelp.com/biz/se%C3%B1or-taco-cypress-2"><i class="fa-brands fa-yelp fa-2xl"></i></a>
     </div>
+    <p className="copyright theme-f"> © {new Date().getFullYear()} Senor Taco</p>
     
     </div>
 </>

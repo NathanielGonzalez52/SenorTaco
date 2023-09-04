@@ -17,21 +17,6 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  // const showButton = () => {
-  //   if (window.innerWidth <= 960) {
-  //     setButton(false);
-  //   } else {
-  //     setButton(true);
-  //   }
-  // };
-
-
-  // if you want to use "useEffect" you will have to add it to the useState 
-  // useEffect(() => {
-  //   showButton();
-  // }, []);
-
-  // window.addEventListener('resize', showButton);
 
   return (
     <>
@@ -89,41 +74,3 @@ export default Navbar;
 
 
 
-
-
-
-
-// import "./Navbar.css";
-// function Navbar() {
-    
-// return (
-
-
-// <nav className="navbar navbar-expand-xl sticky-top navbar-custom">
-// <div className="container-fluid">
-//   <Link className="header navbar-brand" href="index.html"><img className="logo" src="../../images/senor_taco.png"
-//    alt="logo"></img></Link>
-//   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-//     <span className="navbar-toggler-icon"></span>
-//   </button>
-
-
-//   <div className="collapse navbar-collapse" id="navbarSupportedContent">
-//     <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-//       <li className="nav-item special">
-//         <Link className="nav-a" aria-current="page" href="#top">Home</Link>
-//       </li>
-//       <li className="nav-item">
-//         <Link className="nav-a" href="#event-sec">Events</Link>
-//       </li>
-//       <li className="nav-item">
-//         <Link className="nav-a" href="#contact-us">About Us</Link>
-//       </li>
-//     </ul>
-
-//   </div>
-// </div>
-// </nav>
-
-// );
-// }

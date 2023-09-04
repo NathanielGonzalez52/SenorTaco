@@ -52,7 +52,8 @@
     visibility: hidden;
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 700px) {
+    
 
     .three {
       visibility: visible;
@@ -68,6 +69,7 @@
         text-align: center;
         /* background-color: red; */
         width: 100%;
+        padding-bottom: 0rem;
     }
 
     .intro {
@@ -76,9 +78,9 @@
     }
 
     .pics {
+        margin-top: -1.5rem;
         /* background-color: blue; */
         display: flex;
-        padding-top: 1rem;
         padding-bottom: 10rem;
         /* padding: 0.5rem; */
         justify-content: center;
@@ -88,12 +90,15 @@
     }
 
     .food {
-        width: 20rem;
+        height: 22.5rem;
+        /* background-color: red; */
+        width: 40%;
         padding: 0.2rem;
     }
 
     .one {
-        width: 35rem;
+        object-fit: cover;
+        /* width: 28rem; */
     }
 
 
