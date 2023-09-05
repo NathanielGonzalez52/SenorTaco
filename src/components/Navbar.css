@@ -4,10 +4,11 @@
 }
 
 .logo {
-    width: 30%;
-    margin-right: 50%;
-    padding-bottom: 2rem;
-    /* background-color: red; */
+  float: left;
+  width: 30%;
+  margin-top: -0.55rem;
+  padding-bottom: 0rem;
+  /* background-color: red; */
 }
 
 .navbar {
@@ -26,11 +27,13 @@
 }
 
 .navbar-container {
+  /* background-color: yellow; */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   height: 150px;
-  max-width: 1500px;
+  width: 100%;
+  /* max-width: 1500px; */
 }
 
 /* .navbar-logo {
@@ -51,6 +54,7 @@
 } */
 
 .nav-menu {
+  /* background-color: blue; */
   display: grid;
   grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
@@ -95,11 +99,13 @@
 }
 
 @media screen and (max-width: 960px) {
+
   .NavbarItems {
     position: relative;
   }
 
   .nav-menu {
+    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     width: 100%;
