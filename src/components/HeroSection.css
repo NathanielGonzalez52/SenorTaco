@@ -1,5 +1,5 @@
 .hero-container {
-    background: url("../../public/images/taquitos.jpg") center center/cover no-repeat;
+    /* background: url("../../public/images/taquitos.jpg") center center/cover no-repeat; */
     height: 40vh;
     width: 100%;
     display: flex;
@@ -14,6 +14,29 @@
 
 @media screen and (min-width: 1300px) {
     .hero-container {
-        background-position: 0rem -30rem
+        overflow: hidden;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        /* background-position: 0rem 0rem; */
+        /* background: url("../../public/images/taquitos.jpg") left, url("../../public/images/wet_burrito3.jpg") center, url("../../public/images/tacos_display.jpg") right; */
+        /* background-position: left, right; */
+        /* background-size: 33.5%; */
+        border-color: black;
+        border-style: solid;
+        border-width: thick;
+        border-radius: 4rem;
+        /* background-repeat: no-repeat; */
+        /* background-size: 30%; */
+        /* background-repeat: repeat; */
+        /* object-fit: cover; */
+        /* background-color: white; */
+    }
+
+    .hero {
+        width: 34%;
+        border-color: #000000;
+        border-width: thin;
+        border-style: double;
     }
 }

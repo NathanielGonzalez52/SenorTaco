@@ -3,7 +3,6 @@
   src: url("../../public/fonts/La Tequila Out.ttf");
 }
 
-
 .header {
   padding-top: 1.3rem;
   padding-bottom: 0.6rem;
@@ -16,12 +15,12 @@
 
 .theme {
   color: green;
-  font-family: "mexican";
+  font-family: "Dosis", sans-serif;
   font-size: 0.5rem;
 }
 
 .address {
-  font-size: 0.482rem;
+  font-size: 1rem;
 }
 
 .store-info {
@@ -42,6 +41,7 @@
 .hours {
   /* background-color: yellow; */
   width: 100%;
+  font-size: 1.1rem;
 }
 
 .socials {
@@ -64,7 +64,7 @@
 @media screen and (min-width: 1300px) {
 
   .theme {
-    font-size: 0.75rem;
+    font-size: 1.1rem;
   }
 
   .header {

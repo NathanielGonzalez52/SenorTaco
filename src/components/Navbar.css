@@ -3,12 +3,11 @@
   src: url("../../public/fonts/La Tequila Out.ttf");
 }
 
-
-
 .logo {
     width: 30%;
     margin-right: 50%;
     padding-bottom: 2rem;
+    /* background-color: red; */
 }
 
 .navbar {
@@ -63,8 +62,9 @@
 }
 
 .nav-item {
-  font-family: "mexican";
+  font-family: "Dosis", sans-serif;
   height: 80px;
+  font-size: 2rem;
 }
 
 .nav-links {

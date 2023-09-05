@@ -3,8 +3,6 @@
     src: url("../../public/fonts/La Tequila Out.ttf");
   }
 
-
-
 .foot {
     /* padding-bottom: 51rem; */
     background-color: green;
@@ -15,16 +13,19 @@
     padding-left: 1rem;
 }
 
-.header {
+.header-f {
     font-size: 1rem;
     padding-top: 3.5rem;
-    color: rgb(255, 0, 0);
+    color: #FFFFFF;
+    font-family: "mexican";
+    padding-bottom: 0.5rem;
+    /* color: rgb(255, 0, 0); */
 }
 
 .theme-f {
-    font-size: 0.5rem;
+    font-size: 0.85rem;
     color: #FFFFFF;
-    font-family: "mexican";
+    font-family: "Dosis", sans-serif;
 }
 
 .location {
@@ -54,11 +55,10 @@
   }
   
 .socials-f .fa-brands {
-   padding: 0.6rem 1rem;
+   padding: 5rem 1rem 0rem;
    color: #FFFFFF;
   }
 
 .copyright {
-  font-size: 0.45rem;
   padding-bottom: 2.5rem;
   }
